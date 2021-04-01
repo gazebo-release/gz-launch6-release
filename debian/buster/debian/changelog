@@ -1,18 +1,6 @@
-ignition-launch4 (4.0.0-1~buster) buster; urgency=medium
-
-  * ignition-launch4 4.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 31 Mar 2021 18:16:26 -0700
-
-ignition-launch4 (4.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-launch4 4.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Fri, 26 Mar 2021 16:09:53 -0700
-
-ignition-launch4 (3.999.999-1~buster) buster; urgency=medium
+ignition-launch5 (4.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:43:17 +0200
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Apr 2021 15:28:28 -0700
 
