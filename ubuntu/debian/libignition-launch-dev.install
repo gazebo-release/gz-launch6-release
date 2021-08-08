@@ -2,5 +2,6 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-launch*/*
+usr/lib/*/ignition/launch*/*
 usr/share/*
 usr/lib/ruby/*
