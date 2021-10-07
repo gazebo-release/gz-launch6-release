@@ -1,18 +1,6 @@
-ignition-launch5 (5.0.0-1~focal) focal; urgency=medium
-
-  * ignition-launch5 5.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Fri, 01 Oct 2021 14:55:29 -0700
-
-ignition-launch5 (5.0.0~pre1-1~focal) focal; urgency=medium
-
-  * ignition-launch5 5.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 16:53:17 -0700
-
-ignition-launch5 (4.999.999-1~focal) focal; urgency=medium
+ignition-launch6 (5.999.999-1~focal) focal; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Apr 2021 15:28:28 -0700
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 07 Oct 2021 15:42:10 -0700
 
