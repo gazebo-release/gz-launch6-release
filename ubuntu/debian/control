@@ -1,7 +1,7 @@
 Source: ignition-launch6
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
-Priority: extra
+Priority: optional
 Build-Depends: cmake,
                debhelper (>= 11),
                doxygen,
@@ -53,6 +53,7 @@ Depends: libignition-cmake2-dev,
          qtquickcontrols2-5-dev,
          libqt5core5a,
          libignition-launch6 (= ${binary:Version}),
+         ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Launch Library - Development files
