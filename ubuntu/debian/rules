@@ -1,16 +1,7 @@
 #!/usr/bin/make -f
 
-DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
-
-.PHONY: override_dh_auto_configure \
-        override_dh_install
-
 %:
-	dh $@ --parallel
-
-override_dh_install:
-	dh_install --
-	dh_missing --list-missing
+	dh $@
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
