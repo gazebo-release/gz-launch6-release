@@ -1,10 +1,9 @@
 Source: ignition-launch6
-Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
-Priority: extra
+Priority: optional
 Build-Depends: cmake,
-               debhelper (>= 7.0.50~),
+               debhelper (>= 11),
                doxygen,
                libignition-cmake2-dev,
                libignition-common5-dev,
@@ -20,8 +19,9 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                libqt5core5a,
                binutils-dev
-Vcs-Browser: https://github.com/ignition-release/ign-launch6-release
+Vcs-Browser: https://github.com/ignitionrobotics/ignition-launch
 Vcs-Git: https://github.com/ignition-release/ign-launch6-release
+Standards-Version: 4.5.1
 Homepage: https://github.com/ignition-release/ign-launch6
 
 Package: libignition-launch6
@@ -31,26 +31,33 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Launch Library - Launch libraries
+ Ignition Launch, a component of Ignition Robotics, provides a command line
+ interface to run and manager application and plugins.
+ .
+ Package contains the ignition launch libraries
 
 Package: libignition-launch6-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-	 libignition-common5-dev,
-	 libignition-gazebo7-dev,
-	 libignition-gui7-dev,
-	 libignition-msgs9-dev,
-	 libignition-plugin-dev,
-	 libignition-tools-dev,
-	 libignition-transport12-dev,
-	 libsdformat13-dev,
-	 libtinyxml2-dev ,
-	 libwebsockets-dev,
-	 qtquickcontrols2-5-dev,
-	 libqt5core5a,
-	 libignition-launch6 (= ${binary:Version}),
+         libignition-common5-dev,
+         libignition-gazebo7-dev,
+         libignition-gui7-dev,
+         libignition-msgs9-dev,
+         libignition-plugin-dev,
+         libignition-tools-dev,
+         libignition-transport12-dev,
+         libsdformat13-dev,
+         libtinyxml2-dev ,
+         libwebsockets-dev,
+         qtquickcontrols2-5-dev,
+         libqt5core5a,
+         libignition-launch6 (= ${binary:Version}),
+         ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Launch Library - Launch libraries
-  Ignition Common is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
+Description: Ignition Robotics Launch Library - Development files
+ Ignition Launch, a component of Ignition Robotics, provides a command line
+ interface to run and manager application and plugins.
+ .
+ Package contains the ignition launch development files and cli client
