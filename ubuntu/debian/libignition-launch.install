@@ -1,2 +1,2 @@
 usr/lib/*/*.so.*
-usr/lib/*/ign-launch-*/plugins/*.so
+usr/lib/*/*-launch-*/plugins/*.so
