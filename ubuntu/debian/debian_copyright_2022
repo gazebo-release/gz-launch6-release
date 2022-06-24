@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignition-launch
-Upstream-Contact: https://github.com/ignitionrobotics/ign-launch/issues
-Source: https://github.com/ignitionrobotics/ign-launch
+Upstream-Name: gz-launch
+Upstream-Contact: https://github.com/gazebosim/gz-launch/issues
+Source: https://github.com/gazebosim/gz-launch
 
 Files: *
 Copyright: 2012-2021, Open Source Robotics Foundation
