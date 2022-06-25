@@ -22,7 +22,7 @@ Build-Depends: cmake,
 Vcs-Browser: https://github.com/gazebosim/gz-launch
 Vcs-Git: https://github.com/gazebo-release/gz-launch6-release
 Standards-Version: 4.5.1
-Homepage: https://github.com/gazebo-release/gz-launch6
+Homepage: https://github.com/gazebosim/gz-launch
 
 Package: libignition-launch6
 Architecture: any
