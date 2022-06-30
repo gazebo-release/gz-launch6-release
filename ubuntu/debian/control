@@ -1,4 +1,4 @@
-Source: ignition-launch6
+Source: gz-launch6
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -24,7 +24,7 @@ Vcs-Git: https://github.com/gazebo-release/gz-launch6-release
 Standards-Version: 4.5.1
 Homepage: https://github.com/gazebosim/gz-launch
 
-Package: libignition-launch6
+Package: libgz-launch6
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -36,7 +36,7 @@ Description: Gazebo Launch Library - Launch libraries
  .
  Package contains the Gazebo launch libraries
 
-Package: libignition-launch6-dev
+Package: libgz-launch6-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake3-dev,
@@ -52,7 +52,7 @@ Depends: libignition-cmake3-dev,
          libwebsockets-dev,
          qtquickcontrols2-5-dev,
          libqt5core5a,
-         libignition-launch6 (= ${binary:Version}),
+         libgz-launch6 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: same
@@ -61,3 +61,19 @@ Description: Gazebo Launch Library - Development files
  interface to run and manager application and plugins.
  .
  Package contains the Gazebo launch development files and cli client
+
+Package: libignition-launch6
+Depends: libgz-launch6, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-launch6-dev
+Depends: libgz-launch6-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
