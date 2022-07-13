@@ -3,5 +3,5 @@ usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/*-launch*/*
 usr/lib/*/*/launch*/*
-usr/share/ignition/*
+usr/share/gz/*
 usr/lib/ruby/*
