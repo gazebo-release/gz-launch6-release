@@ -1,2 +1,7 @@
 usr/lib/*/*.so.*
 usr/lib/*/*-launch-*/plugins/*.so
+usr/lib/*/*/launch*/*
+usr/lib/ruby/*
+usr/share/gz/*.yaml
+usr/share/gz/*/configs/*
+usr/share/gz/*completion*/*
