@@ -1,3 +1,9 @@
+gz-launch6 (6.0.0~pre1-2~jammy) jammy; urgency=medium
+
+  * gz-launch6 6.0.0~pre1-2 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Sep 2022 11:35:22 -0700
+
 gz-launch6 (6.0.0~pre1-1~jammy) jammy; urgency=medium
 
   * gz-launch6 6.0.0~pre1-1 release
