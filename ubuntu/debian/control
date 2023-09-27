@@ -29,7 +29,7 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: gz-launch6-cli
+Recommends: gz-launch6-cli
 Breaks: libignition-launch6 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
 Replaces: libignition-launch6 (<< 5.999.999+nightly+git20220630+2rcec9c00a42bbd412815a3c9d64a3ce9b7dfd186d-2)
 Multi-Arch: same
