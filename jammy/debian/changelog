@@ -1,3 +1,9 @@
+gz-launch6 (6.1.0-1~jammy) jammy; urgency=medium
+
+  * gz-launch6 6.1.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 27 Sep 2023 11:45:25 -0500
+
 gz-launch6 (6.0.0-1~jammy) jammy; urgency=medium
 
   * gz-launch6 6.0.0-1 release
