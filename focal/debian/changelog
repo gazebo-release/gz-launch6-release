@@ -1,3 +1,9 @@
+gz-launch6 (6.2.0-1~focal) focal; urgency=medium
+
+  * gz-launch6 6.2.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Nov 2024 22:31:26 +0100
+
 gz-launch6 (6.1.0-1~focal) focal; urgency=medium
 
   * gz-launch6 6.1.0-1 release
